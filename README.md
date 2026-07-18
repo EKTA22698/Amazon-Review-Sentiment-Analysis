@@ -1,71 +1,39 @@
 # Amazon Review Sentiment Analysis using Machine Learning
 
-## Overview
+## 📌 Project Overview
 
-This project performs sentiment analysis on Amazon product reviews using Machine Learning and Natural Language Processing (NLP). The system classifies customer reviews as either **Positive** or **Negative** by preprocessing text, extracting features using TF-IDF, and training machine learning models.
-
-The project compares the performance of **Logistic Regression** and **Naive Bayes** to identify the better algorithm for sentiment classification.
+This project performs sentiment analysis on Amazon product reviews using Machine Learning and Natural Language Processing (NLP). The objective is to classify customer reviews as either **Positive** or **Negative** based on the review text. The project compares the performance of two supervised machine learning algorithms: **Logistic Regression** and **Naive Bayes**.
 
 ---
 
-## Features
+## 🎯 Objectives
 
-- Text preprocessing and cleaning
-- Stopword removal
-- TF-IDF Vectorization
-- Binary Sentiment Classification
-- Model comparison
-- Confusion Matrix
-- Classification Report
-- Custom review prediction
+- Classify Amazon product reviews into Positive and Negative sentiments.
+- Clean and preprocess textual data.
+- Convert text into numerical features using TF-IDF Vectorization.
+- Train and compare multiple machine learning models.
+- Evaluate model performance using standard metrics.
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
+- Google Colab
 - Pandas
 - NumPy
 - Scikit-learn
 - NLTK
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
 
 ---
 
-## Machine Learning Workflow
+## 📂 Dataset
 
-```
-Amazon Reviews Dataset
-          │
-          ▼
-Data Preprocessing
-(Remove Special Characters, Lowercase,
-Stopword Removal, Text Cleaning)
-          │
-          ▼
-TF-IDF Vectorization
-          │
-          ▼
-Train-Test Split
-          │
-          ▼
-Model Training
-(Logistic Regression & Naive Bayes)
-          │
-          ▼
-Model Evaluation
-          │
-          ▼
-Sentiment Prediction
-```
+The project uses an Amazon Product Reviews dataset containing customer review text and corresponding sentiment labels.
 
----
-
-## Dataset
-
-The dataset consists of Amazon product reviews with binary sentiment labels.
+Example:
 
 | Review | Sentiment |
 |---------|-----------|
@@ -74,23 +42,22 @@ The dataset consists of Amazon product reviews with binary sentiment labels.
 
 ---
 
-## Algorithms Used
+## ⚙️ Methodology
 
-### Logistic Regression
-- Binary classification algorithm
-- High accuracy
-- Easy to interpret
-- Best performing model
+### 1. Data Preprocessing
+- Remove special characters
+- Convert text to lowercase
+- Remove stopwords
+- Clean and normalize text
 
-### Naive Bayes
-- Probabilistic classifier
-- Fast training
-- Good baseline for NLP tasks
+### 2. Feature Extraction
+- TF-IDF (Term Frequency–Inverse Document Frequency)
 
----
+### 3. Machine Learning Models
+- Logistic Regression
+- Naive Bayes
 
-## Evaluation Metrics
-
+### 4. Model Evaluation
 - Accuracy
 - Precision
 - Recall
@@ -99,81 +66,65 @@ The dataset consists of Amazon product reviews with binary sentiment labels.
 
 ---
 
-## Project Structure
+## 🔄 Project Workflow
 
-```
-Amazon-Review-Sentiment-Analysis/
-│
-├── dataset/
-├── notebook.ipynb
-├── train_model.py
-├── predict.py
-├── requirements.txt
-├── README.md
-└── screenshots/
-```
+Dataset
 
----
+↓
 
-## Installation
+Data Preprocessing
 
-Clone the repository
+↓
 
-```bash
-git clone https://github.com/YOUR_USERNAME/Amazon-Review-Sentiment-Analysis.git
-```
+TF-IDF Vectorization
 
-Install dependencies
+↓
 
-```bash
-pip install -r requirements.txt
-```
+Train-Test Split
 
-Run the project
+↓
 
-```bash
-python predict.py
-```
+Model Training
+
+↓
+
+Model Evaluation
+
+↓
+
+Sentiment Prediction
 
 ---
 
-## Sample Prediction
+## 📊 Results
 
-Input Review
-
-```
-The product quality is excellent and delivery was very fast.
-```
-
-Prediction
-
-```
-Positive
-```
-
-Input Review
-
-```
-Worst purchase ever. Completely disappointed.
-```
-
-Prediction
-
-```
-Negative
-```
+The comparison of both machine learning models shows that **Logistic Regression** achieved better classification performance than **Naive Bayes** on the Amazon Reviews dataset.
 
 ---
 
-## Future Improvements
+## 📸 Project Outputs
 
-- Implement LSTM for better sequential learning
-- Use BERT for transformer-based sentiment analysis
-- Deploy using Streamlit
-- Support multi-class sentiment classification
+The project includes:
+
+- Dataset Preview
+- Confusion Matrix
+- Classification Report
+- Accuracy Comparison
+- Custom Review Prediction
 
 ---
 
-## License
+## 🚀 Future Improvements
 
-This project is developed for educational purposes.
+- Implement Deep Learning models such as LSTM.
+- Use BERT for transformer-based sentiment analysis.
+- Deploy the project using Streamlit or Flask.
+- Improve prediction accuracy through hyperparameter tuning.
+
+---
+
+
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
