@@ -1,12 +1,12 @@
 # Amazon Review Sentiment Analysis using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs sentiment analysis on Amazon product reviews using Machine Learning and Natural Language Processing (NLP). The objective is to classify customer reviews as either **Positive** or **Negative** based on the review text. The project compares the performance of two supervised machine learning algorithms: **Logistic Regression** and **Naive Bayes**.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Classify Amazon product reviews into Positive and Negative sentiments.
 - Clean and preprocess textual data.
@@ -16,7 +16,7 @@ This project performs sentiment analysis on Amazon product reviews using Machine
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Google Colab
@@ -29,7 +29,7 @@ This project performs sentiment analysis on Amazon product reviews using Machine
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The project uses an Amazon Product Reviews dataset containing customer review text and corresponding sentiment labels.
 
@@ -42,7 +42,7 @@ Example:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 - Remove special characters
@@ -66,7 +66,7 @@ Example:
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 Dataset
 
@@ -96,13 +96,13 @@ Sentiment Prediction
 
 ---
 
-## 📊 Results
+## Results
 
 The comparison of both machine learning models shows that **Logistic Regression** achieved better classification performance than **Naive Bayes** on the Amazon Reviews dataset.
 
 ---
 
-## 📸 Project Outputs
+## Project Outputs
 
 The project includes:
 
@@ -114,7 +114,7 @@ The project includes:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Implement Deep Learning models such as LSTM.
 - Use BERT for transformer-based sentiment analysis.
@@ -125,6 +125,6 @@ The project includes:
 
 
 
-## 📄 License
+## License
 
 This project is developed for educational and learning purposes.
