@@ -174,20 +174,6 @@ Negative
 
 ---
 
-## Contributors
-
-- Ekta Bhardwaj
-- Sayra Sood
-- Vibha Dubey
-- Anjali Kalra
-- Vedans Rawat
-
-Department of Computer Science & Engineering
-
-UPES Dehradun
-
----
-
 ## License
 
 This project is developed for educational purposes.
